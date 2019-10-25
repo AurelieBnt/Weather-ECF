@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WeatherActivity</string>
+    <string name="openWeather">YOUR_KEY</string>
+</resources>
