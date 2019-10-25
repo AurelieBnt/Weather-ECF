@@ -12,7 +12,7 @@ import com.example.weatheractivity.services.WeatherService;
 
 public class WeatherActivity extends AppCompatActivity implements IWeatherServiceListener {
 
-    String maKey;
+    public String maKey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
