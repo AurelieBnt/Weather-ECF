@@ -1,8 +1,6 @@
 package com.example.weatheractivity.models;
 
-import android.media.Image;
 import android.widget.ImageView;
-
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class VisualRendering {

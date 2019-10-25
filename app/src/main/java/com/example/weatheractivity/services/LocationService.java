@@ -13,7 +13,7 @@ import com.example.weatheractivity.models.Location;
 
 public class LocationService implements LocationListener {
 
-    ILocationServiceListener activity;
+    public ILocationServiceListener activity;
 
     public LocationManager locationManager;
 
@@ -36,17 +36,14 @@ public class LocationService implements LocationListener {
 
     }
 
-    @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
 
     }
 
-    @Override
     public void onProviderEnabled(String provider) {
 
     }
 
-    @Override
     public void onProviderDisabled(String provider) {
 
     }

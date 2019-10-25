@@ -1,11 +1,9 @@
 package com.example.weatheractivity.services;
 
 import android.widget.ImageView;
-
 import androidx.constraintlayout.widget.ConstraintLayout;
-
 import com.example.weatheractivity.models.VisualRendering;
-import com.example.weatheractivity.models.Weather;
+
 
 public class VisualRenderingService {
 

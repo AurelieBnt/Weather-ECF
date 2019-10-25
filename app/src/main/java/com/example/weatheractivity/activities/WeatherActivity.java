@@ -6,11 +6,8 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.weatheractivity.R;
-import com.example.weatheractivity.models.Location;
 import com.example.weatheractivity.models.Weather;
-import com.example.weatheractivity.services.ILocationServiceListener;
 import com.example.weatheractivity.services.IWeatherServiceListener;
-import com.example.weatheractivity.services.LocationService;
 import com.example.weatheractivity.services.WeatherService;
 
 public class WeatherActivity extends AppCompatActivity implements IWeatherServiceListener {
@@ -21,7 +18,7 @@ public class WeatherActivity extends AppCompatActivity implements IWeatherServic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        WeatherService weatherService = new WeatherService(this);
+        new WeatherService(this);
         maKey = getString(R.string.openWeather);
 
     }
